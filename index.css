@@ -1,0 +1,62 @@
+/* General Styling */
+body{
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: whitesmoke;
+    color: green;
+}
+/* Head Styling */
+h1{
+    text-align: center;
+    font-size: 32px;
+}
+/* Image Styling */
+img{
+    display: block;
+    margin: 20px auto;
+    width: 300px;
+}
+/* Unordered List Stlyling */
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+ul li{
+    margin-bottom: 10px;
+}
+/* Link Styles */
+a{
+    color: blue;
+    text-decoration: none;
+}
+/* Link styling using Pseudo Selector */
+a:hover{
+    text-decoration: underline;
+}
+/* Paragraph Styling */
+p{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+/* List Styling */
+ol{
+    margin: 20px 0;
+}
+ul li{
+    margin-bottom: 10px;
+}
+/* Bonus style for link */
+#newYorkTimes{
+    color: aqua;
+    background-color: grey;
+}
+/* Class Selector Styling */
+.pie{
+    background-color: firebrick;
+}
+/* Styling list using child Selector and Pseudo Selector */
+ol>li:nth-child(1), ol>li:nth-child(4){
+    font-weight: bold;
+}
